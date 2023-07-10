@@ -8,7 +8,9 @@ let isdev = !app.isPackaged || process.env.NODE_ENV == 'development';
 // let isdev = process.env.NODE_ENV == 'development';
 let mainwindow;
 
-
+require('update-electron-app')({
+	notifyUser: true
+})
 const EOL = require('os').EOL
 const fs = require('fs')
 const url = require('url')

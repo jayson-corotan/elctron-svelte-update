@@ -27,4 +27,17 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'jayson-corotan',
+          name: 'elctron-svelte-update'
+        },
+        prerelease: false,
+        draft: true
+      }
+    }
+  ]
 };
