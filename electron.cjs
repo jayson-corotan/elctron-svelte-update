@@ -11,6 +11,7 @@ let mainwindow;
 require('update-electron-app')({
 	notifyUser: true
 })
+if (require('electron-squirrel-startup')) app.quit();
 const EOL = require('os').EOL
 const fs = require('fs')
 const url = require('url')

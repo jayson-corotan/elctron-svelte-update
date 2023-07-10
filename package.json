@@ -4,10 +4,10 @@
 	"main": "electron.cjs",
 	"author": "Jayson Gwapo",
 	"description": "Hello World!",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jayson-corotan/elctron-svelte-update.git"
-  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jayson-corotan/elctron-svelte-update.git"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
