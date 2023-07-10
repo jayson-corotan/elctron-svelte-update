@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <style>
+      table, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <div> 
+      <h1>Name</h1>
+      <h2>{{data.name}}</h2>
+      <h1>Address</h1>
+      <h2>{{data.address}}</h2>
+    </div>
+    <br />
+    <br />
+    <table>
+      <tr>
+        <td>
+          <b>Name</b>
+        </td>
+        <td>
+          <b>Description</b>
+        </td>
+      </tr>
+      {{#each rows}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{description}}</td>
+      </tr>
+      {{/each}}
+    </table>
+  </body>
+</html>
