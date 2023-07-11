@@ -1,6 +1,6 @@
 {
 	"name": "svelte-jsreport",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"main": "electron.cjs",
 	"author": "Jayson Gwapo",
 	"description": "Hello World!",
