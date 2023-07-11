@@ -55,7 +55,7 @@
 </svelte:head>
 
 <section>
-	<h1>Hello Update Svelte App</h1>
+	<h1>Hello Update 0.3 Svelte App</h1>
 	<input type="text" name="name" id="" bind:value={data.name} placeholder="name">
 	<input type="text" name="address" id="" bind:value={data.address} placeholder="address">
 
